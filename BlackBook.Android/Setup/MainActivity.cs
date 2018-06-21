@@ -12,7 +12,7 @@ namespace BlackBook.Droid.Setup {
               Theme = "@style/MainTheme",
               MainLauncher = true,
               ConfigurationChanges = ConfigChanges.ScreenSize | ConfigChanges.Orientation)]
-    public class MainActivity : MvxFormsAppCompatActivity<MvxFormsAndroidSetup<App, FormsApp>, App, FormsApp> {
+    public class MainActivity : MvxFormsAppCompatActivity<Setup, App, FormsApp> {
         
         protected override void OnCreate(Bundle bundle) {
             

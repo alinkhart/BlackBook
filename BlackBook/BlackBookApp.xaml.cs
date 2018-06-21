@@ -5,8 +5,9 @@ using Xamarin.Forms.Xaml;
 
 [assembly: XamlCompilation(XamlCompilationOptions.Compile)]
 namespace BlackBook {
-    public partial class App : Application {
-        public App() {
+    public partial class BlackBookApp : Application {
+        
+        public BlackBookApp() {
             InitializeComponent();
 
             MainPage = new LoginView();

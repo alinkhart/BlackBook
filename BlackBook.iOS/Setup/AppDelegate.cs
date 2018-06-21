@@ -6,7 +6,7 @@ using UIKit;
 
 namespace BlackBook.iOS.Setup {
     [Register("AppDelegate")]
-    public partial class AppDelegate : MvxFormsApplicationDelegate<MvxFormsIosSetup<App, FormsApp>, App, FormsApp> {
+    public partial class AppDelegate : MvxFormsApplicationDelegate<Setup, App, FormsApp> {
         
         public override bool FinishedLaunching(UIApplication app, NSDictionary options) {
 

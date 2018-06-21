@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlackBook.iOS", "BlackBook.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlackBook", "BlackBook\BlackBook.csproj", "{5359FD80-AB88-4861-A058-F378474599B0}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlackBook.Forms", "BlackBook.Forms\BlackBook.Forms.csproj", "{50A2A4EF-B496-4CCF-A2B1-B4A8260C8AA4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -17,6 +19,7 @@ Global
 		Release|iPhone = Release|iPhone
 		Ad-Hoc|iPhone = Ad-Hoc|iPhone
 		AppStore|iPhone = AppStore|iPhone
+		Default|Any CPU = Default|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{6C0A9282-11B9-42E1-AC64-904B21F78989}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
@@ -35,6 +38,8 @@ Global
 		{6C0A9282-11B9-42E1-AC64-904B21F78989}.Ad-Hoc|iPhone.Build.0 = Debug|Any CPU
 		{6C0A9282-11B9-42E1-AC64-904B21F78989}.AppStore|iPhone.ActiveCfg = Debug|Any CPU
 		{6C0A9282-11B9-42E1-AC64-904B21F78989}.AppStore|iPhone.Build.0 = Debug|Any CPU
+		{6C0A9282-11B9-42E1-AC64-904B21F78989}.Default|Any CPU.ActiveCfg = Debug|Any CPU
+		{6C0A9282-11B9-42E1-AC64-904B21F78989}.Default|Any CPU.Build.0 = Debug|Any CPU
 		{450AF943-65A2-4E62-9A10-866B09352F07}.Debug|Any CPU.ActiveCfg = Debug|iPhoneSimulator
 		{450AF943-65A2-4E62-9A10-866B09352F07}.Debug|Any CPU.Build.0 = Debug|iPhoneSimulator
 		{450AF943-65A2-4E62-9A10-866B09352F07}.Release|Any CPU.ActiveCfg = Release|iPhoneSimulator
@@ -51,6 +56,8 @@ Global
 		{450AF943-65A2-4E62-9A10-866B09352F07}.Ad-Hoc|iPhone.Build.0 = Ad-Hoc|iPhone
 		{450AF943-65A2-4E62-9A10-866B09352F07}.AppStore|iPhone.ActiveCfg = AppStore|iPhone
 		{450AF943-65A2-4E62-9A10-866B09352F07}.AppStore|iPhone.Build.0 = AppStore|iPhone
+		{450AF943-65A2-4E62-9A10-866B09352F07}.Default|Any CPU.ActiveCfg = Debug|iPhoneSimulator
+		{450AF943-65A2-4E62-9A10-866B09352F07}.Default|Any CPU.Build.0 = Debug|iPhoneSimulator
 		{5359FD80-AB88-4861-A058-F378474599B0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{5359FD80-AB88-4861-A058-F378474599B0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5359FD80-AB88-4861-A058-F378474599B0}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -67,5 +74,25 @@ Global
 		{5359FD80-AB88-4861-A058-F378474599B0}.Ad-Hoc|iPhone.Build.0 = Debug|Any CPU
 		{5359FD80-AB88-4861-A058-F378474599B0}.AppStore|iPhone.ActiveCfg = Debug|Any CPU
 		{5359FD80-AB88-4861-A058-F378474599B0}.AppStore|iPhone.Build.0 = Debug|Any CPU
+		{5359FD80-AB88-4861-A058-F378474599B0}.Default|Any CPU.ActiveCfg = Debug|Any CPU
+		{5359FD80-AB88-4861-A058-F378474599B0}.Default|Any CPU.Build.0 = Debug|Any CPU
+		{50A2A4EF-B496-4CCF-A2B1-B4A8260C8AA4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{50A2A4EF-B496-4CCF-A2B1-B4A8260C8AA4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{50A2A4EF-B496-4CCF-A2B1-B4A8260C8AA4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{50A2A4EF-B496-4CCF-A2B1-B4A8260C8AA4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{50A2A4EF-B496-4CCF-A2B1-B4A8260C8AA4}.Debug|iPhoneSimulator.ActiveCfg = Debug|Any CPU
+		{50A2A4EF-B496-4CCF-A2B1-B4A8260C8AA4}.Debug|iPhoneSimulator.Build.0 = Debug|Any CPU
+		{50A2A4EF-B496-4CCF-A2B1-B4A8260C8AA4}.Release|iPhoneSimulator.ActiveCfg = Release|Any CPU
+		{50A2A4EF-B496-4CCF-A2B1-B4A8260C8AA4}.Release|iPhoneSimulator.Build.0 = Release|Any CPU
+		{50A2A4EF-B496-4CCF-A2B1-B4A8260C8AA4}.Debug|iPhone.ActiveCfg = Debug|Any CPU
+		{50A2A4EF-B496-4CCF-A2B1-B4A8260C8AA4}.Debug|iPhone.Build.0 = Debug|Any CPU
+		{50A2A4EF-B496-4CCF-A2B1-B4A8260C8AA4}.Release|iPhone.ActiveCfg = Release|Any CPU
+		{50A2A4EF-B496-4CCF-A2B1-B4A8260C8AA4}.Release|iPhone.Build.0 = Release|Any CPU
+		{50A2A4EF-B496-4CCF-A2B1-B4A8260C8AA4}.Ad-Hoc|iPhone.ActiveCfg = Release|Any CPU
+		{50A2A4EF-B496-4CCF-A2B1-B4A8260C8AA4}.Ad-Hoc|iPhone.Build.0 = Release|Any CPU
+		{50A2A4EF-B496-4CCF-A2B1-B4A8260C8AA4}.AppStore|iPhone.ActiveCfg = Release|Any CPU
+		{50A2A4EF-B496-4CCF-A2B1-B4A8260C8AA4}.AppStore|iPhone.Build.0 = Release|Any CPU
+		{50A2A4EF-B496-4CCF-A2B1-B4A8260C8AA4}.Default|Any CPU.ActiveCfg = Debug|Any CPU
+		{50A2A4EF-B496-4CCF-A2B1-B4A8260C8AA4}.Default|Any CPU.Build.0 = Debug|Any CPU
 	EndGlobalSection
 EndGlobal

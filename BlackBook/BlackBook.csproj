@@ -9,8 +9,13 @@
     <PackageReference Include="MvvmCross.Forms" Version="6.1.2" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Views\" />
     <Folder Include="ViewModels\" />
     <Folder Include="Setup\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Condition=" '$(EnableDefaultCompileItems)' == 'true' " Update="Setup\BlackBookApp.xaml.cs">
+      <DependentUpon>BlackBookApp.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
   </ItemGroup>
 </Project>

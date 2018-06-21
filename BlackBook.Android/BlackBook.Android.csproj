@@ -72,9 +72,9 @@
     </PackageReference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="MainActivity.cs" />
     <Compile Include="Resources\Resource.Designer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Setup\MainActivity.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\AboutResources.txt" />
@@ -105,11 +105,16 @@
     <Folder Include="Resources\drawable-xhdpi\" />
     <Folder Include="Resources\drawable-xxhdpi\" />
     <Folder Include="Resources\drawable-xxxhdpi\" />
+    <Folder Include="Setup\" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\BlackBook\BlackBook.csproj">
       <Project>{5359FD80-AB88-4861-A058-F378474599B0}</Project>
       <Name>BlackBook</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\BlackBook.Forms\BlackBook.Forms.csproj">
+      <Project>{50A2A4EF-B496-4CCF-A2B1-B4A8260C8AA4}</Project>
+      <Name>BlackBook.Forms</Name>
     </ProjectReference>
   </ItemGroup>
  <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />

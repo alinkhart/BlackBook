@@ -4,7 +4,7 @@ using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
 [assembly: XamlCompilation(XamlCompilationOptions.Compile)]
-namespace BlackBook {
+namespace BlackBook.Setup {
     public partial class BlackBookApp : Application {
         
         public BlackBookApp() {
